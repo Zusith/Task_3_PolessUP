@@ -21,7 +21,7 @@
         }
         else
         {
-            return FindIndexIfElementMissing(nums, target);
+             return FindIndexIfElementMissing(nums, target);
         }
     }
 
