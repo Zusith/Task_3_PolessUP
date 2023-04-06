@@ -3,7 +3,7 @@
     private static void Main(string[] args)
     {
         Console.WriteLine("Ввод: ");
-        int[] nums = new int[] { 4,4,4,4 };
+        int[] nums = new int[] { 1,2,3,6 };
         int target = 5;
         Array.Sort(nums);
         Console.WriteLine("[" + string.Join(",", nums) + "]");
