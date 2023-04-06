@@ -3,7 +3,7 @@
     private static void Main(string[] args)
     {
         Console.WriteLine("Ввод: ");
-        int[] nums = new int[] { 1, 3, 5, 6 };
+        int[] nums = new int[] { 1, 2, 3, 4 };
         int target = 5;
         Array.Sort(nums);
         Console.WriteLine("[" + string.Join(",", nums) + "]");
@@ -33,6 +33,10 @@
             {
                 return index + 1;
             }
+        }
+        if (nums[0] > target)
+        {
+            return 0;
         }
         return nums.Length;
     }
